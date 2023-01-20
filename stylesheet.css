@@ -1,10 +1,13 @@
-
+body {
+    background-color: #daf0cd;
+    background-image: url("images/rain.gif");
+}
 
 .nav {
     padding-top: 20px;
     width: 100%;
-    height: 140px;
-    background-color: #606c38;
+    height: 150px;
+    background-color: #2b4730;
     text-align: center;
     margin: 0;
 }
@@ -12,23 +15,26 @@
 .nav h1 {
     font-family: 'Unbounded', cursive;
     text-align: center;
-    color: #fefae0;
-    font-size: 36px;
-    line-height: 36px;
+    color: #daf0cd;
+    font-size: 2em;
+    line-height: 1.5em;
+    text-transform: uppercase;
 }
 
 .nav h2 {
-    line-height: 8px;
-    font-size: 14px;
+    line-height: 0.5em;
+    font-size: 1em;
     font-family: 'Unbounded', cursive;
-    color: #fefae0;
+    color: #daf0cd;
 }
 
 .nav2 {
-    padding-top: 20px;
+    position: sticky;
+    top: 0;
+    padding-top: 15px;
     width: 100%;
     height: 40px;
-    background-color: #fefae0;
+    background-color: #73a875;
     text-align: center;
     margin: 0;
 }
@@ -36,8 +42,28 @@
 .nav2 a {
     text-decoration: none;
     font-family: 'Unbounded', cursive;
-    padding-right: 20px;
+    padding-right: 1em;
     text-align: center;
-    color: #606c38;
-    line-height: 24px;
+    color: #2b4730;
+    line-height: 1.5em;
+}
+
+.copy {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    background-color: #daf0cd;
+}
+
+.copy p, .copy ul, .copy h4 {
+    color: #2b4730;
+    font-family: 'Unbounded', cursive;
+    font-size: 0.9em;
+    list-style-type: circle;
+}
+
+.copy img {
+    display: block;
+    margin: auto;
+    width: 60%;
 }
