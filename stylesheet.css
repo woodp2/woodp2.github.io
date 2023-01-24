@@ -14,7 +14,7 @@ a:hover {
     color: #73a875;
 }
 
-nav {
+.nav {
     padding-top: 20px;
     width: 100%;
     height: 150px;
@@ -23,7 +23,7 @@ nav {
     margin: 0;
 }
 
-nav h1 {
+.nav h1 {
     font-family: 'Unbounded', cursive;
     text-align: center;
     color: #daf0cd;
@@ -32,14 +32,14 @@ nav h1 {
     text-transform: uppercase;
 }
 
-nav h2 {
+.nav h2 {
     line-height: 0.5em;
     font-size: 1em;
     font-family: 'Unbounded', cursive;
     color: #daf0cd;
 }
 
-#nav2 {
+.nav2 {
     position: sticky;
     top: 0;
     padding-top: 15px;
@@ -50,7 +50,7 @@ nav h2 {
     margin: 0;
 }
 
-#nav2 a {
+.nav2 a {
     text-decoration: none;
     font-family: 'Unbounded', cursive;
     padding-right: 1em;
@@ -59,20 +59,20 @@ nav h2 {
     line-height: 1.5em;
 }
 
-#copy {
+.copy {
     margin: auto;
     width: 70%;
     padding: 10px;
 }
 
-#copy p, #copy ul, #copy h4 {
+.copy p, .copy ul, .copy h4 {
     color: #2b4730;
     font-family: 'Unbounded', cursive;
     font-size: 0.9em;
     list-style-type: circle;
 }
 
-#copy img {
+.copy img {
     display: block;
     margin: auto;
     width: 60%;
