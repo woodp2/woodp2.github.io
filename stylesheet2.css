@@ -1,0 +1,77 @@
+* {
+    font-family: 'Unbounded', cursive;
+    color: rgb(11, 25, 73);
+}
+
+nav {
+    padding-top: 50px;
+}
+
+header {
+    padding-top: 40px;
+}
+
+.sidenav {
+    height: 1170px;
+    background-color: rgb(117, 155, 109);
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.navlinks {
+    position: sticky;
+    top: 50px;
+    z-index: 1;
+}
+
+body {
+    background-color: rgb(231, 225, 194);
+}
+
+p {
+    font-size: 0.9em;
+}
+
+li {
+    font-size: 0.9em;
+}
+
+h2 {
+    font-size: 2.4em;
+    font-weight: 500;
+    animation-name: textcolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+h2:hover {
+    font-size: 3em;
+    transition: 1s;
+}
+
+@keyframes textcolor {
+    from {color: rgb(122, 124, 236);}
+    to {color: rgb(112, 221, 126);}
+  }
+
+h3 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(11, 25, 73);
+}
+
+a:visited {
+    color: rgb(11, 25, 73);
+}
+
+footer {
+    text-align: center;
+}

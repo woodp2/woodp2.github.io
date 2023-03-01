@@ -4,7 +4,7 @@
 }
 
 #wrapper {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -25,7 +25,6 @@ a:hover {
 }
 
 nav {
-    z-index: 1;
     padding-top: 2%;
     padding-bottom: 2%;
     width: 100%;
@@ -53,6 +52,7 @@ nav h2 {
 
 #nav2 {
     position: sticky;
+    z-index: 1;
     top: 0;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -72,30 +72,24 @@ nav h2 {
     line-height: 1.5em;
 }
 
-#copy {
+article {
     display: inline;
     margin: auto;
     width: 70%;
 }
 
-#copy p, #copy ul, #copy h4 {
+article p, article ul, article h4 {
     color: #2b4730;
     font-family: 'Unbounded', cursive;
     font-size: 0.9em;
-    list-style-type: none;
-    padding: 0.5%
+    list-style-type: circle;
+    padding: 0.5%;
 }
 
-#copy img {
+article img {
     display: block;
     margin: auto;
     width: 60%;
-}
-
-.column {
-    padding: 2%;
-    width: 45%;
-    float: left;
 }
 
 img {
@@ -109,16 +103,8 @@ img {
     padding-top: 3%;
 }
 
-.flex-container2 {
-    padding-top: 3%;
-    padding-bottom: 3%;
-    flex-direction:0 row;
-    margin: auto;
-}
-
 footer {
-    position: absolute;
-    width: 80%;
+    position: static;
     background-image: url("images/greengradient2.png");
     background-position: center;
     background-repeat: no-repeat;
