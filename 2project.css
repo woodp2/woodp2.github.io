@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    overflow-y: hidden;
+    background-color: black;
+}
+
+.page2 {
+    padding-top: 2%;
+    background-color: #395337;
+    height: 100%;
+    margin: auto;
+}
+
+header {
+    color: white;
+    padding-left: 5%;
+}
+
+nav {
+    float: right;
+    padding-right: 5%;
+    color: white;
+}
+
+.middle {
+    width: 95%;
+    margin: auto;
+    padding-top: 3%;
+}
+
+.leftarrow {
+    rotate: 180deg;
+    position: fixed;
+    top: 38%;
+    padding-right: 4%;
+}
+
+.rightarrow {
+    position: fixed;
+    top: 38%;
+    padding-left: 85%;
+    float: right;
+}
+
+.textbox {
+    padding-bottom: 5%;
+}
+
+.bottomnav {
+    padding-top: 1%;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+}
+
+.timeline {
+    padding-bottom: 2%;
+}
+
+img {
+    width: 100%;
+}
