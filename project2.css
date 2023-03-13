@@ -8,21 +8,89 @@ header {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     width: 97%;
-    padding-top: 1%;
     padding-left: 3%;
+    padding-top: 0.5%;
+    position: sticky;
+    top: 0px;
+    z-index: 30;
 }
 
 h3 {
     font-size: 2.5vw;
 }
 
+/* Intro */
+.page1 {
+    height: 50vw;
+    background-color: black;
+    color: white;
+}
+
+.introtext {
+    width: 55%;
+    margin: auto;
+    padding-top: 7%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+h5 {
+    font-size: 1.2vw;
+}
+
+h6 {
+    font-size: 1.7vw;
+}
+
+.introp {
+    font-size: 1.2vw;
+}
+
 /* Main pages */
+h4 {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+a:link {
+    color: greenyellow;
+}
+
+a:hover {
+    color: green;
+}
+
+a:visited {
+    color: aqua;
+}
+
 .page3 {
     background-color: black;
 }
 
 .page2 {
     background-color: #395337;
+}
+
+.page4 {
+    background-color: #ABEEF2;
+}
+
+.page5 {
+    background-color: #001357;
+}
+
+.page6 {
+    background-color: black;
+}
+
+.page7 {
+    height: 70vw;
+    background-color: black;
+    color: white;
 }
 
 .content {
@@ -41,6 +109,11 @@ h3 {
     padding-left: 37%;
 }
 
+.timeline3 {
+    width: 120%;
+    padding-left: 27%;
+}
+
 ul {
     list-style-position: inside;
     padding-left: 4%;
@@ -50,9 +123,9 @@ ul {
 .text {
     position: absolute;
     left: 11%;
-    margin-top: 5%;
+    margin-top: 7%;
     width: 40%;
-    height: 55%;
+    height: 50%;
     overflow: scroll;
     z-index: 3;
     font-size: 1vw;
@@ -63,9 +136,9 @@ ul {
 .text2 {
     position: absolute;
     left: 12.5%;
-    margin-top: 5.5%;
+    margin-top: 7%;
     width: 37%;
-    height: 55%;
+    height: 50%;
     overflow: scroll;
     z-index: 3;
     font-size: 1vw;
@@ -93,6 +166,19 @@ ul {
     width: 50%;
     padding-right: 10%;
     margin-top: -20%;
+}
+
+.gameimage1 {
+    float: left;
+    width: 55%;
+    margin-top: 10%;
+}
+
+.gameimage2 {
+    float: right;
+    width: 50%;
+    padding-right: 10%;
+    margin-top: 4%;
 }
 
 .orb1 {
@@ -171,6 +257,34 @@ ul {
         font-size: 7vw;
     }
 
+    .page1 {
+        height: 190vw;
+    }
+    
+    .introtext {
+        width: 75%;
+    }
+    
+    h2 {
+        font-size: 8vw;
+    }
+    
+    h5 {
+        font-size: 4vw;
+    }
+    
+    h6 {
+        font-size: 6vw;
+    }
+    
+    .introp {
+        font-size: 3.3vw;
+    }
+
+    h4 {
+        font-size: 4vw;
+    }
+
     .page2 {
         width: 100%;
         margin: auto;
@@ -179,6 +293,18 @@ ul {
     .page3 {
         width: 100%;
         margin: auto;
+    }
+
+    .page5 {
+        height: 185vw;
+    }
+
+    .page6 {
+        height: 185vw;
+    }
+
+    .page7 {
+        height: 270vw;
     }
 
     .content {
@@ -200,6 +326,14 @@ ul {
     .timeline2 {
         width: 12.5%;
         rotate: -90deg;
+        padding-top: 4%;
+        padding-left: 85%;
+        padding-right: 0%;
+    }
+
+    .timeline3 {
+        rotate: -90deg;
+        width: 14%;
         padding-top: 4%;
         padding-left: 85%;
         padding-right: 0%;
@@ -262,6 +396,20 @@ ul {
         width: 50%;
         padding-right: 10%;
         margin-top: -25%;
+    }
+
+    .gameimage1 {
+        float: left;
+        width: 40%;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    
+    .gameimage2 {
+        float: right;
+        width: 35%;
+        padding-right: 15%;
+        margin-top: 2%;
     }
 
     .orb1 {
@@ -332,6 +480,34 @@ ul {
         font-size: 7vw;
     }
 
+    .page1 {
+        height: 190vw;
+    }
+    
+    .introtext {
+        width: 75%;
+    }
+    
+    h2 {
+        font-size: 8vw;
+    }
+    
+    h5 {
+        font-size: 4vw;
+    }
+    
+    h6 {
+        font-size: 6vw;
+    }
+    
+    .introp {
+        font-size: 3.3vw;
+    }
+
+    h4 {
+        font-size: 4vw;
+    }
+
     .page2 {
         width: 100%;
         margin: auto;
@@ -340,6 +516,10 @@ ul {
     .page3 {
         width: 100%;
         margin: auto;
+    }
+
+    .page7 {
+        height: 270vw;
     }
 
     .content {
@@ -361,6 +541,14 @@ ul {
     .timeline2 {
         width: 12.5%;
         rotate: -90deg;
+        padding-top: 4%;
+        padding-left: 85%;
+        padding-right: 0%;
+    }
+
+    .timeline3 {
+        rotate: -90deg;
+        width: 14%;
         padding-top: 4%;
         padding-left: 85%;
         padding-right: 0%;
@@ -423,6 +611,20 @@ ul {
         width: 50%;
         padding-right: 10%;
         margin-top: -25%;
+    }
+
+    .gameimage1 {
+        float: left;
+        width: 40%;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    
+    .gameimage2 {
+        float: right;
+        width: 35%;
+        padding-right: 15%;
+        margin-top: 2%;
     }
 
     .orb1 {
